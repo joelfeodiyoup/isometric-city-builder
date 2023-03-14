@@ -1,0 +1,30 @@
+<p >main-screen works!</p>
+<stack-l>
+    <button (click)="rotate()">rotate</button>
+    <button (click)="zoomIn()">zoom in</button>
+    <button (click)="zoomOut()">zoom out</button>
+</stack-l>
+<app-interface>
+    <app-dropdown toolbar>
+        <p dropdown-title>file</p>
+        <ul dropdown-options>
+            <li>save</li>
+            <li>exit</li>
+        </ul>
+    </app-dropdown>
+    <app-dropdown toolbar>
+        <p dropdown-title>options</p>
+        <ul dropdown-options>
+            <li>save</li>
+            <li>exit</li>
+        </ul>
+    </app-dropdown>
+    <app-dropdown toolbar>
+        <p dropdown-title>help</p>
+        <ul dropdown-options>
+            <li>save</li>
+            <li>exit</li>
+        </ul>
+    </app-dropdown>
+</app-interface>
+<section #mainScreenContainer></section>
